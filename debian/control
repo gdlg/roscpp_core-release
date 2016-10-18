@@ -1,0 +1,12 @@
+Source: ros-minimalist-roscpp-core
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-minimalist-catkin
+Homepage: http://www.ros.org/wiki/roscpp_core
+Standards-Version: 3.9.2
+
+Package: ros-minimalist-roscpp-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-minimalist-cpp-common, ros-minimalist-roscpp-serialization, ros-minimalist-roscpp-traits, ros-minimalist-rostime
+Description: Underlying data libraries for roscpp messages.
